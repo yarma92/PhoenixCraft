@@ -35,10 +35,3 @@ recipes.addShaped(upgradeFrame, [[shinyIngot, null, shinyIngot], [enderiumIngot,
 recipes.addShaped(upgradeFrameSieve, [[mesh_x, alvearySieve, mesh_x], [alvearySieve, upgradeFrame, alvearySieve], [null, null, null]]);
 
 print("GendustryTweaks Loaded");
-
-
-
-
-
-print("WARNING, YOU ARE LOADING TESTING RECIPES");
-recipes.addShapeless(stone, [alvearySieve]);
