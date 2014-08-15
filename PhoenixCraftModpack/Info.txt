@@ -1,0 +1,8 @@
+Name: PhoenixCraft
+Permissions: -tbd-
+Pack code: -tbd-
+Pack description: -tbc-
+Minecraft version: 1.7.10
+Pack version: 1.0.00
+Pack author: Elec332, GideonSeymour OR PhoenixTeam
+Forge version: 1.7.10-10.13.0.1200
