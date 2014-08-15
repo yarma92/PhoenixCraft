@@ -19,7 +19,7 @@ val industrialGrafter = <gendustry:IndustrialGrafter>;
 val industrialScoop = <gendustry:IndustrialScoop>;
 val upgradeFrame = <gendustry:UpgradeFrame>;
 val alvearySieve = <Forestry:tile.alveary:7>;
-val mesh_x = <exnihilo:mesh>;
+val string = <Forestry:craftingMaterial>;
 val upgradeFrameSieve = <gendustry:ApiaryUpgrade:15>;
 
 
@@ -33,6 +33,6 @@ recipes.remove(upgradeFrameSieve);
 recipes.addShaped(powerModule, [[electrumGear, lumiumIngot, tinkersAlloyGear], [piston, diamondChipset, piston], [tinkersAlloyGear, lumiumIngot, electrumGear]]);
 recipes.addShaped(sturdyMachine, [[bronze, bronze, bronze], [bronze, redstoneChipset, bronze], [bronze, bronze, bronze]]);
 recipes.addShaped(upgradeFrame, [[shinyIngot, null, shinyIngot], [enderiumIngot, tinkersAlloyGear, enderiumIngot], [shinyIngot, null, shinyIngot]]);
-recipes.addShaped(upgradeFrameSieve, [[mesh_x, alvearySieve, mesh_x], [alvearySieve, upgradeFrame, alvearySieve], [null, null, null]]);
+recipes.addShaped(upgradeFrameSieve, [[string, alvearySieve, string], [alvearySieve, upgradeFrame, alvearySieve], [null, null, null]]);
 
 print("GendustryTweaks Loaded");
