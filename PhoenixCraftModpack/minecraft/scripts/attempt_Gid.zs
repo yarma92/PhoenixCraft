@@ -313,6 +313,7 @@ val rose = <minecraft:red_flower>;
 val daisy = <minecraft:yellow_flower>;
 val smoothStone = <minecraft:stone>;
 val planks = <minecraft:planks:*>;
+
 ##Recipes
 recipes.remove(manaSpreader);
 recipes.remove(bloodRune);
