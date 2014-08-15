@@ -1,6 +1,9 @@
 PhoenixCraft
 ============
-When you are updating the PhoenixCraftModpack, be sure to note ALL your changes in the changelog file above the README file
+- When you are updating the PhoenixCraftModpack, be sure to note ALL your changes in the changelog file above the README file
+- The PhoenixCraftModpack folder will be the official folder that I will zip-up and use to submit/update the modpack with FTB.
+- Anything that needs to be on this github, but is not in the PCM folder, must be put in this folder, because I must follow certain indexing rules!
+
 
 How-to Install
 
