@@ -1,4 +1,9 @@
 ==Elec332==
+Fresh Configs
+Ignoring more files
+Uploaded mods
+
+==Elec332==
 Actually put info in the info.txt
 
 ==Elec332==
