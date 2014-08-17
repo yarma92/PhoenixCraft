@@ -515,3 +515,32 @@ recipes.remove(circleTalisman);
 recipes.addShaped(circleTalisman, [[nuggetGold, goldIngot, nuggetGold],[goldIngot, manaDiamond,  goldIngot],[nuggetGold, goldIngot, nuggetGold]]);
 //Keep this at the bottom
 print("Botania - Witchery Loaded");
+
+recipes.addShaped(attunedStone, [[whiffOfMagic], [manaDiamond], [lavaBucket]]);
+
+mods.botania.Apothecary.removeRecipe("endoFlame");
+recipes.addShaped(endoFlame, [[null, null, null], [brownManaPetal, oilOfVitriol, redManaPetal],[null, null, null]]);
+
+mods.botania.ManaInfusion.addInfusion(rowanSapling, oakSapling, 25000);
+recipes.remove(altar);
+recipes.addShaped(altar * 3, [[breathOfTheGoddess, waterBottle, exhaleOfTheHornedOne], [livingrock, rowanWood, livingrock], [livingrock, rowanWood, livingrock]]);
+
+recipes.remove(ritualChalk);
+recipes.addShaped(ritualChalk * 2, [[woodAsh, tearOfTheGoddess, woodAsh], [whiteManaPetal, gypsum, whiteManaPetal], [woodAsh, gypsum, woodAsh]]);
+
+recipes.remove(otherwhereChalk);
+recipes.addShaped(otherwhereChalk * 2, [[waterArtichokeGlobe, manaPearl, waterArtichokeGlobe], [blueManaPetal, ritualChalk, blueManaPetal], [blueManaPetal, ritualChalk, blueManaPetal]]);
+
+recipes.remove(infernalChalk);
+recipes.addShaped(infernalChalk * 2, [[emberMoss, runeOfFire, emberMoss], [redManaPetal, ritualChalk, redManaPetal], [redManaPetal, ritualChalk, redManaPetal]]);
+
+recipes.remove(goldenChalk);
+recipes.addShaped(goldenChalk, [[nuggetGold, nuggetGold, nuggetGold], [yellowManaPetal, ritualChalk, yellowManaPetal], [yellowManaPetal, redstone, yellowManaPetal]]);
+
+recipes.remove(runicAltar);
+recipes.addShaped(runicAltar, [[livingrock, livingrock, livingrock], [livingrock, chargedStone, livingrock], [null, null, null]]);
+
+recipes.remove(circleTalisman);
+recipes.addShaped(circleTalisman, [[nuggetGold, goldIngot, nuggetGold],[goldIngot, manaDiamond,  goldIngot],[nuggetGold, goldIngot, nuggetGold]]);
+//Keep this at the bottom
+print("Botania - Witchery Loaded");
