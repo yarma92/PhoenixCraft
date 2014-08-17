@@ -318,8 +318,8 @@ val planks = <minecraft:planks:*>;
 ##Recipes
 recipes.remove(manaSpreader);
 recipes.remove(bloodRune);
-mods.botania.Apothecary.removeRecipe(jadedAmaranthus);
-mods.botania.Apothecary.removeRecipe(endoFlame);
+//Errors   mods.botania.Apothecary.removeRecipe(jadedAmaranthus);
+//Errors   mods.botania.Apothecary.removeRecipe(endoFlame);
 recipes.addShaped(bloodRune, [[smoothStone, smoothStone, smoothStone], [blankSlate, pureDaisy, blankSlate], [smoothStone, smoothStone, smoothStone]]);
 recipes.addShaped(livingrock * 2, [[smoothStone, bucketLife, smoothStone], [null, null, null], [null, null, null]]);
 recipes.addShaped(livingwood * 2, [[planks, bucketLife, planks], [null, null, null], [null, null, null]]);
