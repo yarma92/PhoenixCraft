@@ -1,3 +1,18 @@
+==Version 2.0.0 Beta4=
+-Updated Santa's Toys
+-Updated AE-2
+-Updated Carpenters blocks
+-Updated Buildcraft
+-Updated Ender IO
+-Updated ExtraUtilities
+-Updated Forestry
+-Updated InvertoryTweaks
+-Updated Tinker's Construct
+-Updated TiC Tooltips
+-Added Logistics Pipes
+-Added BigReactors
+-Added TinkersSteelworks
+
 ==Elec332==
 Re-added FLORA and XU
 
