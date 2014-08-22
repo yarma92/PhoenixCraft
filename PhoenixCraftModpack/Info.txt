@@ -1,6 +1,6 @@
 Name: PhoenixCraft
 Permissions: -tbd-
-Pack code: -tbd-
+Pack code: PhoenixCraft?
 Pack description: -tbc-
 Minecraft version: 1.7.10
 Pack version: 1.0.00
