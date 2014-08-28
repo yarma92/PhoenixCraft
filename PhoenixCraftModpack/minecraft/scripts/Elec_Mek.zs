@@ -26,8 +26,12 @@ recipes.remove(digiMiner);
 recipes.remove(eliteFluidPipe);
 recipes.remove(ultimateFluidPipe);
 
-recipes.addShaped(advancedUniversalCable, [[enrichedAlloy, basicUniversalCable, enrichedAlloy], [null, null, null], [null, null, null]]);
-recipes.addShapeless(eliteUniversalCable, [compressedRedstone, compressedRedstone, advancedUniversalCable, advancedUniversalCable, advancedUniversalCable, advancedUniversalCable, reinforcedAlloy]);
+//no more mek cables because tps lag. (thx qaz)
+recipes.remove(<Mekanism:PartTransmitter:*>);
+
+
+//recipes.addShaped(advancedUniversalCable, [[enrichedAlloy, basicUniversalCable, enrichedAlloy], [null, null, null], [null, null, null]]);
+//recipes.addShapeless(eliteUniversalCable, [compressedRedstone, compressedRedstone, advancedUniversalCable, advancedUniversalCable, advancedUniversalCable, advancedUniversalCable, reinforcedAlloy]);
 recipes.addShaped(atomicAlloy, [[obsidianDust, electrolyticCore, obsidianDust], [electrolyticCore, reinforcedAlloy, electrolyticCore], [obsidianDust, electrolyticCore, obsidianDust]]);
-recipes.addShapeless(ultimateUniversalCable, [compressedDiamond, compressedDiamond, eliteUniversalCable, eliteUniversalCable, eliteUniversalCable ,eliteUniversalCable, atomicAlloy]);
+//recipes.addShapeless(ultimateUniversalCable, [compressedDiamond, compressedDiamond, eliteUniversalCable, eliteUniversalCable, eliteUniversalCable ,eliteUniversalCable, atomicAlloy]);
 recipes.addShaped(atomicDisassembler, [[atomicAlloy, energyTablet, atomicAlloy], [atomicAlloy, ultimateCircuit, atomicAlloy], [null, obsidianIngot, null]]);
