@@ -438,11 +438,11 @@ recipes.addShaped(livingwood * 2, [[planks, bucketLife, planks], [null, null, nu
 mods.bloodmagic.Altar.addRecipe(livingwood, planks, 1, 500, 20, 20);
 
 //endoflame
-mods.botania.Apothecary.removeRecipe(endoFlame);
+//Crashes mods.botania.Apothecary.removeRecipe(endoFlame);
 mods.bloodmagic.Altar.addRecipe(endoFlame, rose, 1, 1000, 20, 20);
 
 //jaded amaranthus
-mods.botania.Apothecary.removeRecipe(jadedAmaranthus);
+//Crashes mods.botania.Apothecary.removeRecipe(jadedAmaranthus);
 mods.bloodmagic.Altar.addRecipe(jadedAmaranthus, daisy, 1, 1000, 20, 20);
 
 //mana spreader

@@ -489,7 +489,7 @@ val waterArtichokeGlobe = <witchery:ingredient:69>;
 recipes.remove(attunedStone);
 recipes.addShaped(attunedStone, [[whiffOfMagic], [manaDiamond], [lavaBucket]]);
 
-mods.botania.Apothecary.removeRecipe("endoFlame");
+//Crashes mods.botania.Apothecary.removeRecipe("endoFlame");
 recipes.addShaped(endoFlame, [[null, null, null], [brownManaPetal, oilOfVitriol, redManaPetal],[null, null, null]]);
 
 mods.botania.ManaInfusion.addInfusion(rowanSapling, oakSapling, 25000);
@@ -518,7 +518,7 @@ print("Botania - Witchery Loaded");
 
 recipes.addShaped(attunedStone, [[whiffOfMagic], [manaDiamond], [lavaBucket]]);
 
-mods.botania.Apothecary.removeRecipe("endoFlame");
+//Crashes mods.botania.Apothecary.removeRecipe("endoFlame");
 recipes.addShaped(endoFlame, [[null, null, null], [brownManaPetal, oilOfVitriol, redManaPetal],[null, null, null]]);
 
 mods.botania.ManaInfusion.addInfusion(rowanSapling, oakSapling, 25000);
