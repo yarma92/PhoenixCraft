@@ -2,11 +2,11 @@ Pack Name: PhoenixCraft
 Link: 
 Server Link: 
 Pack Type: Unlisted Public Modpack
-Description: -Thomazm?
+Description: Have you ever wondered what it would be like to have the world collapse, right underneath your feet? PhoenixCraft delivers that sensation. Try to survive in what's left of the world around you, find resources, and build your own landscapes. Resurrect the world around you from it's ashes. Make the world your phoenix.
 Version: 2.0.00
 Pack Code: phoenixcraft
 Minecraft Version: 1.7.10
-Forge Version: 
+Forge Version: 10.13.0.1208
 Author: Elec332, Gideonseymour, Thomazm
 
 Permissions
