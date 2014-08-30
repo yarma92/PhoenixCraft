@@ -6,6 +6,12 @@ Updated Bigreactors
 Updated Botania
 Updated AE-2
 Updated Betterstorage
+Updated ExtraUtilities
+Updated FlaxbeardsSteamPower
+Updated Mekanism
+Updated Mekanism-Generators
+Updated Mekanism-tools
+Updated Tinkers-steelworks
 
 
 =========================
