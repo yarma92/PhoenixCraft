@@ -19,9 +19,10 @@ How-to Install
 ==============================
 PhoenixCraft-Issuestracker
 ==============================
-Welcome to the PhoenixCraft "IssueTracker"
-To report a issue, simply create an issue. (2nd button on the right)
-Issue report format:
--Modpack version
--Problem discription
--log/crashlog (full!)
+Welcome to the PhoenixCraft "IssueTracker"   
+To report a issue, simply create an issue. (2nd button on the right)   
+Issue report format:   
+-Modpack version   
+-Problem discription   
+-log/crashlog (full!)   
+ 
