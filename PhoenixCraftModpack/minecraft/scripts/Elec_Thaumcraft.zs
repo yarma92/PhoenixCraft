@@ -1,16 +1,6 @@
-##Elec's Thaumcraft alterations to avoid it being gated behind BM
-
-###print(<Thaumcraft:ItemThaumonomicon:0>.displayName);
-##<Thaumcraft:ItemThaumonomicon:0>.displayName = "Depricated, put in crafting table to get the new Item!";
-##val thaumomom = <Thaumcraft:ItemThaumonomicon>;
-##val cheatThaumomom = <Thaumcraft:ItemThaumonomicon:42>;
-##recipes.addShapeless(cheatThaumomom, [thaumomom]);
-##print(<Thaumcraft:ItemThaumonomicon:42>.displayName);
-##<Thaumcraft:ItemThaumonomicon:42>.displayName = "Thaumonomicon";
-##mods.thaumcraft.Research.orphanResearch("ICHOR");
-##mods.thaumcraft.Research.removeResearch("ICHOR"); //gotta figure out what to do with it, its to "good" to be "free"
-##*//End of Thaumonomicon stuff
-
-##testcode furnace.remove(<minecraft:gold_ingot>);
-
-## Yes indeed, Minetweaker actually wont load anything here!
+mods.thaumcraft.Research.addTab("Surviving in the Sky", "thaumcraft", "textures/items/silverwood.png");
+//Research for Silverwood
+mods.thaumcraft.Research.addResearch("Silverwoods", "BASICS", "lucrum 100, alienis 200", 1, 0, 8, <minecraft:sapling>);
+mods.modtweaker.setLocalization("en_US", "tc.research_name.Silverwoods", "More Trees!");
+mods.modtweaker.setLocalization("en_US", "tc.research_text.Silverwoods", "[PC] Creating Silverwood!");
+mods.thaumcraft.Research.addInfusionPage("Silverwoods", <Thaumcraft:WandRod:2>);
